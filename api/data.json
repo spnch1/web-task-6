@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "image": "src\/img\/cat1.jpg",
+            "caption": "Cat #1"
+        },
+        {
+            "image": "src\/img\/cat2.jpg",
+            "caption": "Cat #2"
+        },
+        {
+            "image": "src\/img\/cat3.jpg",
+            "caption": "Cat #3"
+        },
+        {
+            "image": "src\/img\/cat4.jpg",
+            "caption": "Cat #4"
+        },
+        {
+            "image": "src\/img\/cat5.jpg",
+            "caption": "Cat #5"
+        },
+        {
+            "image": "src\/img\/cat6.jpg",
+            "caption": "Cat #6"
+        }
+    ]
+}

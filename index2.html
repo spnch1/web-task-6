@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style-grid.css">
+    <link rel="stylesheet" href="src/css/style-grid.css">
+    <link rel="stylesheet" href="src/css/carousel.css">
     <link rel="icon" type="image/x-icon" href="src/favicon.ico">
     <title>Task 1</title>
 </head>
+
 <body>
     <main class="container">
         <!-- block 1 (begin) -->
@@ -41,7 +44,17 @@
         <!-- block 4 (end)-->
         <!-- block 5 (begin) -->
         <article class="block">
-            <p>Placeholder</p>
+            <h3>Dynamic Carousel</h3>
+            <div id="carousel-container" class="carousel">
+                <div class="carousel-inner" id="carousel-inner">
+                    <!-- slides will be injected here -->
+                </div>
+                <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+            <div id="status-message" style="margin-top: 10px; font-size: 0.8em; color: #666;">Waiting for data...</div>
+
+            <script src="src/js/carousel.js"></script>
         </article>
         <!-- block 5 (end) -->
         <!-- block 6 (begin) -->
@@ -55,4 +68,5 @@
         <!-- block 6 (end) -->
     </main>
 </body>
+
 </html>
